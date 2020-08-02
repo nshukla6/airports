@@ -27,6 +27,17 @@
 .App-link {
   color: #61dafb;
 }
+.btn {
+  background-color: burlywood;
+  margin: 20px auto;
+  color: black;
+  padding: 5px;
+  border-radius: 5px;
+}
+.airport-select {
+  max-width: 600px;
+  margin: 10px auto;
+}
 
 @keyframes App-logo-spin {
   from {
