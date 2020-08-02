@@ -27,7 +27,7 @@ function Airports() {
   }
 
   const changeHandler = (e) => {
-    setValue(e)
+    setValue(e);
   }
   const buttonHandler = () => {
     getAirportsdata();
@@ -42,6 +42,10 @@ function Airports() {
         value={value}
         placeholder={loading ? "Loading" : "Select Airport"}
       />}
+      {value && <div className="airport">
+        <span>{value.label}</span>
+      </div>
+}
     </div>
     
     
